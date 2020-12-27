@@ -20,3 +20,54 @@
 .page-footer__logo {
   display: none;
 }
+
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    height: 143px;
+    margin-top: 60px;
+    padding-top: 35px;
+
+    &--inner {
+      margin-top: 0;
+    }
+  }
+
+  .page-footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .page-footer__logo {
+    display: block;
+    margin-right: 80px;
+    font-size: 0;
+
+    &:hover {
+      path {
+        fill: $color-primary;
+      }
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+
+  .page-footer__logo--disabled {
+    cursor: default;
+
+    &:hover {
+      path {
+        fill: #000000;
+      }
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+}
