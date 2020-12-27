@@ -1,0 +1,79 @@
+.highlight {
+  position: relative;
+  margin: 0;
+  padding: 30px 0 40px 0;
+  background-color: $color-bg;
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-size: auto 6px;
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+}
+
+.highlight__wrapper {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.highlight__title {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.highlight__info {
+  color: $color-primary;
+  font-size: 17px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.highlight__desc {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+.highlight__list {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-collapse: collapse;
+}
+
+.highlight__field,
+.highlight__value {
+  text-align: left;
+  line-height: 38px;
+  font-weight: 400;
+  border-bottom: 1px solid #ececec;
+}
+
+.highlight__field {
+  width: 37%;
+}
+
+.highlight__image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.highlight__price {
+  display: block;
+  margin-bottom: 25px;
+  color: #000000;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.highlight__order {
+  width: 100%;
+}
