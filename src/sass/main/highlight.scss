@@ -165,3 +165,52 @@
     height: 404px;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .highlight {
+    padding-top: 70px;
+    padding-bottom: 95px;
+    background-size: auto 24px;
+
+    &::before {
+      top: -14px;
+      background-size: auto 34px;
+    }
+  }
+
+  .highlight__wrapper {
+    padding-left: 175px;
+  }
+
+  .highlight__title {
+    z-index: 1;
+    padding-top: 55px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .highlight__info {
+    top: 70px;
+    left: 40px;
+  }
+
+  .highlight__desc {
+    margin-bottom: 45px;
+  }
+
+  .highlight__list {
+    margin-bottom: 110px;
+  }
+
+  .highlight__image {
+    right: 0;
+    top: 0;
+    width: 525px;
+    height: 636px;
+  }
+
+  .highlight__price {
+    margin-bottom: 30px;
+  }
+}

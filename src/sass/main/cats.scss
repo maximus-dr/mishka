@@ -95,3 +95,19 @@
     }
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .cats {
+    margin-bottom: 0;
+  }
+
+  .cats__link {
+    padding: 30px 350px 30px 40px;
+    font-size: 20px;
+
+    &:hover {
+      padding-bottom: 35px;
+    }
+  }
+}

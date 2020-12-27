@@ -145,3 +145,20 @@
     }
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .advantages {
+    margin-bottom: 30px;
+    padding-top: 60px;
+  }
+
+  .advantages__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .advantages__wrapper {
+    padding: 0 175px;
+  }
+}
