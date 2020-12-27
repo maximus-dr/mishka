@@ -1,0 +1,28 @@
+.copyright {
+  min-height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright__link {
+  display: block;
+  position: relative;
+  padding: 30px 60px 30px 0;
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: 700;
+
+  &:hover path {
+    fill: #46c1ae;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__icon {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+}
