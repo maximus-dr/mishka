@@ -2,3 +2,10 @@
 @import "common/mixins";
 @import "common/fonts";
 @import "common/common";
+
+// Page header
+@import "header/page-header.scss";
+@import "header/main-nav.scss";
+@import "header/search.scss";
+@import "header/cart.scss";
+@import "header/nav.scss";

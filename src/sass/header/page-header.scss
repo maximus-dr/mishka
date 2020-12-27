@@ -1,0 +1,50 @@
+.page-header {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: $color-bg;
+}
+
+.page-header__logo {
+  display: block;
+
+  padding: 18px 0;
+
+  text-align: center;
+
+  border-bottom: 1px solid #dfdfdf;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.page-header__logo--disabled {
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.page-header__main-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header__nav {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header__aside {
+  display: none;
+}
