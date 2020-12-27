@@ -12,13 +12,11 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0;
-
   font-family: $font-primary;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
   color: $color-font;
-
   background-color: $color-bg;
 }
 
@@ -36,16 +34,33 @@ img {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   padding: 0;
   border: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    width: 670px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1050px;
+    margin: 0 auto;
+  }
 }

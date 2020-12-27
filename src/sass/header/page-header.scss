@@ -1,19 +1,14 @@
 .page-header {
   display: block;
-
   margin: 0;
   padding: 0;
-
   background-color: $color-bg;
 }
 
 .page-header__logo {
   display: block;
-
   padding: 18px 0;
-
   text-align: center;
-
   border-bottom: 1px solid #dfdfdf;
 
   &:hover {
@@ -47,4 +42,47 @@
 
 .page-header__aside {
   display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    background: none;
+    background-image: linear-gradient(to bottom, #ffffff 89px, #dfdfdf 89px, #dfdfdf 90px, transparent 90px);
+  }
+
+  .page-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .page-header__logo {
+    order: -3;
+    border: none;
+
+    img {
+      width: auto;
+      height: 46px;
+    }
+  }
+
+  .page-header__search {
+    order: -2;
+    margin-left: auto;
+  }
+
+  .page-header__cart {
+    order: -1;
+  }
+
+  .page-header__aside {
+    display: block;
+    padding-top: 17px;
+    color: $color-font;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: right;
+  }
 }

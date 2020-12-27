@@ -62,3 +62,24 @@
     }
   }
 }
+
+
+@media (min-width: $tablet-width) {
+  .search {
+    margin-left: auto;
+
+    border: none;
+    border-left: 1px solid #dfdfdf;
+  }
+
+  .search__link {
+    width: 80px;
+    padding: 30px 0 35px 0;
+
+    font-size: 0;
+  }
+
+  .search__link-icon {
+    top: 35px;
+  }
+}

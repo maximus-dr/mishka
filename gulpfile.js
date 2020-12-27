@@ -67,7 +67,7 @@ function serve() {
     server: {
       baseDir: './dist'
     },
-    port: 8800,
+    port: 3000,
     notify: false,
     open: true
   });

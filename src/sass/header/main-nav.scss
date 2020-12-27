@@ -89,3 +89,38 @@
     }
   }
 }
+
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    min-width: 335px;
+
+    font-size: 15px;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__list {
+    display: flex;
+  }
+
+  .main-nav__item {
+    padding: 0;
+    margin-right: 37px;
+
+    border: none;
+  }
+
+  .main-nav__link {
+    display: block;
+
+    max-width: 175px;
+    padding: 17px 0;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

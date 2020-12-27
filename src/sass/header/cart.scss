@@ -64,3 +64,26 @@
     }
   }
 }
+
+
+@media (min-width: $tablet-width) {
+  .cart {
+    border: none;
+    border-left: 1px solid #dfdfdf;
+  }
+
+  .cart__link {
+    min-width: 265px;
+    max-width: 300px;
+    padding: 30px 0 35px 80px;
+
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .cart__link-icon {
+    top: 35px;
+  }
+}
