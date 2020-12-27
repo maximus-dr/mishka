@@ -22,7 +22,7 @@ function html() {
 }
 
 function style() {
-  return src('src/sass/main.scss')
+  return src('src/sass/styles.scss')
     .pipe(plumber())
     .pipe(sass())
     .pipe(groupmq())
@@ -32,7 +32,7 @@ function style() {
       cascade: true
     }))
     .pipe(minify())
-    .pipe(rename('main.min.css'))
+    .pipe(rename('styles.min.css'))
     .pipe(dest('dist/css'))
     .pipe(sync.stream());
 }
