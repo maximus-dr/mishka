@@ -93,3 +93,55 @@
     background-image: url("../img/icon-feature-gift.svg");
   }
 }
+
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    margin-bottom: 25px;
+    padding-top: 50px;
+  }
+
+  .advantages__wrapper {
+    padding: 0;
+  }
+
+  .advantages__title {
+    margin-bottom: 50px;
+
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item {
+    width: 50%;
+    margin-bottom: 60px;
+
+    font-size: 20px;
+    line-height: 22px;
+
+    &--handmade {
+      order: 1;
+    }
+
+    &--price {
+      order: 2;
+    }
+
+    &--support {
+      order: 3;
+    }
+
+    &--like {
+      order: 4;
+    }
+
+    &--gift {
+      order: 5;
+    }
+  }
+}

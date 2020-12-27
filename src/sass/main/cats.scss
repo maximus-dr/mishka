@@ -73,3 +73,25 @@
     }
   }
 }
+
+
+@media (min-width: $tablet-width) {
+  .cats__list {
+    display: flex;
+  }
+
+  .cats__item {
+    width: 50%;
+  }
+
+  .cats__link {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    line-height: 30px;
+
+    &:hover {
+      padding-bottom: 35px;
+    }
+  }
+}

@@ -44,3 +44,49 @@
   font-size: 13px;
   line-height: 24px;
 }
+
+
+@media (min-width: $tablet-width) {
+  .main {
+    margin-top: -59px;
+    background-image: url("../img/hero-tablet@1x.jpg");
+    background-position: 50% 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/hero-tablet@2x.jpg");
+      background-size: 1150px auto;
+    }
+
+    &--inner {
+      background-image: none;
+    }
+  }
+
+  .main__title {
+    width: 670px;
+    height: 625px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 150px;
+    font-size: 43px;
+    line-height: 50px;
+
+    &--inner {
+      width: auto;
+      height: auto;
+      padding-top: 95px;
+      padding-bottom: 90px;
+      background-image: url("../img/bg-zigzag-fill.svg");
+      background-size: auto 24px;
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+    }
+  }
+
+  .main__text {
+    margin: 0;
+    padding: 60px 0 75px 0;
+    font-size: 17px;
+    line-height: 30px;
+  }
+}

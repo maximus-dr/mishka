@@ -115,10 +115,8 @@
 
   .main-nav__link {
     display: block;
-
     max-width: 175px;
     padding: 17px 0;
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -129,7 +127,6 @@
 @media (min-width: $desktop-width) {
   .main-nav {
     min-width: 370px;
-
     font-size: 17px;
   }
 

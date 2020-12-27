@@ -1,6 +1,5 @@
 .nav {
   display: none;
-
   line-height: 24px;
   font-weight: 700;
 }
@@ -19,12 +18,10 @@
 @media (min-width: $desktop-width) {
   .nav {
     display: flex;
-
     min-width: 350px;
     margin: 0;
     padding: 0;
     padding-top: 17px;
-
     list-style: none;
   }
 
@@ -33,7 +30,6 @@
     margin: 0;
     margin-right: 60px;
     padding: 0;
-
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

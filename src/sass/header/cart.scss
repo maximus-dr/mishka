@@ -1,18 +1,14 @@
 .cart {
   z-index: 10;
-
   margin: 0;
   padding: 0;
-
   border-bottom: 1px solid #dfdfdf;
 }
 
 .cart__link {
   display: block;
   position: relative;
-
   padding: 25px 30px 29px 75px;
-
   color: #000000;
   font-size: 17px;
   line-height: 24px;
@@ -41,10 +37,8 @@
   position: absolute;
   top: 30px;
   left: 30px;
-
   width: 20px;
   height: 19px;
-
   opacity: 0.2;
 
   path {
@@ -76,7 +70,6 @@
     min-width: 265px;
     max-width: 300px;
     padding: 30px 0 35px 80px;
-
     text-align: right;
     white-space: nowrap;
     overflow: hidden;

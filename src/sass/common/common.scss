@@ -51,6 +51,34 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 
+.button {
+  display: inline-block;
+  vertical-align: top;
+
+  padding: 15px;
+
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  border: 2px solid #444444;
+  border-radius: 0;
+
+  background-color: transparent;
+
+  &:hover {
+    color: #ffffff;
+
+    background-color: #444444;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
 @media (min-width: $tablet-width) {
   .container {
     width: 670px;
