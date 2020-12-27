@@ -1,0 +1,8 @@
+@mixin center {
+  margin: 0 auto;
+}
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
