@@ -71,3 +71,14 @@
     }
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    margin-top: 100px;
+
+    &--inner {
+      margin-top: 0;
+    }
+  }
+}
