@@ -124,3 +124,32 @@
     text-overflow: ellipsis;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    min-width: 370px;
+
+    font-size: 17px;
+  }
+
+  .main-nav__list {
+    padding: 0;
+  }
+
+  .main-nav__item {
+    margin: 0;
+    padding: 0;
+
+    &:not(:last-of-type) {
+      margin-right: 35px;
+
+      border-right: 1px solid #dfdfdf;
+    }
+  }
+
+  .main-nav__link {
+    max-width: 200px;
+    padding: 30px 35px 35px 0;
+  }
+}

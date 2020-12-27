@@ -86,3 +86,30 @@
     text-align: right;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .page-header__logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    padding: 0;
+    padding-top: 10px;
+
+    width: 100%;
+
+    img {
+      height: 72px;
+    }
+  }
+
+  .page-header__main-nav {
+    order: -3;
+  }
+
+  .page-header__nav {
+    display: block;
+  }
+}
