@@ -24,3 +24,18 @@
     flex-direction: column;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .catalog {
+    margin-bottom: 55px;
+    padding-top: 115px;
+  }
+
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}

@@ -145,3 +145,32 @@
     right: 30px;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .product {
+    flex-direction: column;
+    width: 316px;
+    min-height: 660px;
+    height: auto;
+    margin: 0;
+  }
+
+  .product__link {
+    &--image {
+      width: 100%;
+    }
+  }
+
+  .product__image {
+    height: 462px;
+  }
+
+  .product__info {
+    padding-top: 23px;
+  }
+
+  .product__price {
+    padding-left: 0;
+  }
+}
