@@ -11,3 +11,16 @@
   padding: 0;
   list-style: none;
 }
+
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    margin-bottom: 50px;
+    padding-top: 65px;
+  }
+
+  .catalog__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
