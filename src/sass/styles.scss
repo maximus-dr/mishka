@@ -10,13 +10,18 @@
 @import "header/cart.scss";
 @import "header/nav.scss";
 
-// Main content
+// Main content index
 @import "main/main.scss";
 @import "main/cats.scss";
 @import "main/highlight.scss";
 @import "main/advantages.scss";
 @import "main/reviews.scss";
 @import "main/contacts.scss";
+
+// Main content catalog
+@import "catalog/catalog.scss";
+@import "catalog/product.scss";
+@import "catalog/production.scss";
 
 // Page footer
 @import "footer/page-footer.scss";
