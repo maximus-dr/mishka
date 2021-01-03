@@ -224,5 +224,31 @@
   </footer>
   <!-- PAGE FOOTER END -->
 
+
+  <!-- MODAL CONTENT -->
+  <section class="modal modal--hidden">
+    <h2 class="modal__title">Добавить в корзину</h2>
+    <form class="add-to-cart" method="post" action="https://echo.htmlacademy.ru">
+      <p class="add-to-cart__callout">Выберите размер:</p>
+      <ul class="add-to-cart__list">
+        <li class="add-to-cart__option">
+          <input class="visually-hidden add-to-cart__radio" id="s" type="radio" name="size" value="s" checked>
+          <label for="s" class="add-to-cart__radio-label">S</label>
+        </li>
+        <li class="add-to-cart__option">
+          <input class="visually-hidden add-to-cart__radio" id="m" type="radio" name="size" value="m">
+          <label for="m" class="add-to-cart__radio-label">M</label>
+        </li>
+        <li class="add-to-cart__option">
+          <input class="visually-hidden add-to-cart__radio" id="l" type="radio" name="size" value="l">
+          <label for="l" class="add-to-cart__radio-label">L</label>
+        </li>
+      </ul>
+      <button class="button add-to-cart__submit" type="submit">Добавить</button>
+    </form>
+  </section>
+  <!-- OVERLAY -->
+  <div class="overlay overlay--hidden"></div>
+
 </body>
 </html>
